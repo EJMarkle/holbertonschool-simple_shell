@@ -15,7 +15,7 @@ int main(void)
 	{
 		/* checks if running in interactive terminal */
 		if (isatty(fileno(stdin)))
-			printf("Hello there. \n");
+			printf("Hello there. \n$ ");
 
 		/* assigns user's input to 'line' */
 		line = readLine();
